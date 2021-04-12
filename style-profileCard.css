@@ -113,3 +113,48 @@ a {
     font-weight: bold;
     margin-left: 5px
     }
+
+@media only screen and (max-width: 446px) {
+    body {
+        height: 100vh;
+    }
+    .profile-card {
+        display: flex;
+        background-size: 300px 100px;
+        width: 300px;
+        height: 300px;
+    }
+
+    img {
+        width:60px;
+        height: 60px;
+        margin-top: -20px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .secondary-copy {
+        margin: 5px 10px;
+        margin-left: 40px;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .attribution {
+        display: flex;
+        font-size: 0.6rem;
+        justify-content: flex-end;
+        margin-top: 50vh;
+        text-align: center;
+        align-content: center;
+        margin-right: 50px;  
+    }
+}
