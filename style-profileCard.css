@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
+
+body {
+    background-image: url(./profile-card-component-main/images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif; 
+    height: 100vh;
+}
+tittle {
+    display: none;
+}
+
+.profile-card {
+    display: flex;
+    background-color: white;
+    background-image: url(../Profile-card-component/profile-card-component-main/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 400px 150px;
+    width: 400px;
+    height: 400px;
+    margin: 10% auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container {
+    
+    padding: 3em;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 90px;
+    height: 90px;
+    align-self: center;
+    margin-top: 20px;
+    z-index: 99;
+}
+
+.main-copy{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1rem;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+h4 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 59%);
+    margin-top: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;  
+    margin-top: -5px;
+}
+
+hr {
+    border: none;
+    background-color: hsl(0, 8%, 93%);
+    display: block;
+    z-index: 99;
+    width: 400px;
+    height: 2px;
+}
+.secondary-copy{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 50px;
+    margin-left: 60px;
+    
+}
+
+.col {
+    background: white;
+    margin-right: 30px;
+}
+
+.attribution {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: hsl(240, 1%, 27%);
+    font-size: 0.8rem;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+a {
+    text-decoration-line: none;
+    color: hsl(240, 1%, 27%);
+    font-weight: bold;
+    margin-left: 5px
+    }
